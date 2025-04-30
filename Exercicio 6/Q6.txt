@@ -1,0 +1,5 @@
+1. Inicio
+2. Ler valor em dolar e valor da cotação
+3. Calcular conversão em real = valor em dolar * valor da cotação
+4. Exibir valor em dolar, valor da cotação e conversão em real
+5. Fim

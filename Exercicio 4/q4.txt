@@ -1,0 +1,8 @@
+1. Inicio
+2. Ler nome do aluno, n1, n2 e n3
+3. Calcular media = (n1 + n2 + n3)/3
+4. Exibir nome do aluno, n1, n2, n3 e media
+5. Se media >= 6 -> exibir aprovado
+6. Senao, se media < 6 e media > 4 -> exibir recuperação
+7. Senao exibir reprovado
+8. Fim
