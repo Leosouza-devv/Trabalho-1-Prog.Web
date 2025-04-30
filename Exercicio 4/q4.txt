@@ -5,4 +5,4 @@
 5. Se media >= 6 -> exibir aprovado
 6. Senao, se media < 6 e media > 4 -> exibir recuperação
 7. Senao exibir reprovado
-x. Fim
+8. Fim
