@@ -1,0 +1,11 @@
+1. Inicio
+2. Ler num1 e num2
+3. Calcular soma = num1 + num2
+4. Calcular subtração = num1 - num2
+5. Calcular multiplicação = num1 * num2
+6. Calcular divisão = num1/num2
+7. Exibir soma
+8. Exibir subtração
+9. Exibir multipliacação
+10. Exibir divisão
+11. Fim
