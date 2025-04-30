@@ -1,0 +1,13 @@
+1. Inicio
+2. Ler nome_vendedor, salario_fixo, valor_total_vendas
+3. Comissão = (valor_total_vendas * (5/100))
+4. Salario_bruto = salario_fixo + comissão
+5. Salario_liquido = ((salario_bruto) - ( salario_bruto * (20/100))) 
+6. Exibir nome_vendedor
+7. Exibir salario_fixo
+8. Exibir valor_total_vendas
+9. Exibir comissão = 5% de valor_total_vendas
+10. Exibir salario_bruto
+11. Exibir descontos do salario 
+12. Exibir salario_liquido
+13. Fim 
