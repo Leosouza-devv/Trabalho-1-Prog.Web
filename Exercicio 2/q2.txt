@@ -1,0 +1,5 @@
+1. Inicio
+2. Ler distancia_total e Combustivel_gasto
+3. Consumo médio = Combustivel_gasto / distancia_total
+4. Exibir média de consumo
+5. Fim
