@@ -1,0 +1,7 @@
+1. Inicio
+2. Ler A1 e B1
+3. Declarar A2 e B2
+4. Atribuir A1 a B2
+5. Atribuir B1 a A2
+6. Exibir A, B, A2 e B2
+7. Fim 
