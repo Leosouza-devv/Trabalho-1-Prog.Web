@@ -1,0 +1,8 @@
+1. Inicio
+2. Ler valor_deposito
+3. valor_rendimento = 0,70% do valor_deposito
+4. valor_ajustado = valor_deposito + 0,70% do valor_deposito
+5. Exibir valor_deposito
+6. Exibir valor_rendimento
+7. Exibir valor_ajustado
+8. Fim

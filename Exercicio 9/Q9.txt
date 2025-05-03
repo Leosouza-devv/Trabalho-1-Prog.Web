@@ -1,0 +1,11 @@
+1. Inicio
+2. declarar variavel stop, booleana = false, responsavel pelo fim do loop 
+3. enquanto stop = false faça
+4. qtd_carro = qtd_carro + 1 
+5. Ler marca_modelo do carro
+6. Ler ano_fabricação do carro
+7. Ler valor_carro do carro
+8. valor_ajustado = valor_carro
+9. se ano de ano_fabricação <= 2020, valor_ajustado = (valor_ajustado - 12%) e D12 = 12 e qtd_carro_2020 = qtd_carro_2020 + 10. senão D12 = 0
+11. se valor >= 60mil então, valor_ajustado = (valor_ajustado - 7%) e D7 = 7 senão D7 = 0
+12. vet[qtd_carro] = "Marca e modelo do carro:" +marca_modelo+ "| Valor do carro: R$" + valor_carro +"|Desconto referente ano de fabricação = "+D12+"% | Desconto referente ao preço do veiculo = " +D7+ "% | Valor com desconto aplicado: R$"+ valor_ajustado 

@@ -1,0 +1,7 @@
+1. Inicio
+2. Ler num1 e num2
+3. se num1 = num2 exibir uma mensagem que os dois numeros são iguais 
+4. senão exibir mensagem que são diferentes 
+5. se num1 > num2 exibira uma mensagem dizendo que num1 é maior 
+6. se num1 < num2 exibira uma mensagem dizendo que num2 é maior 
+7. Fim 
