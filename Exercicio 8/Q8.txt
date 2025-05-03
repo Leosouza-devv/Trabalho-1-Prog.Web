@@ -1,0 +1,5 @@
+1. Inicio
+2. Declarar vetor numeros[4]
+3. Ler cada numero 
+4. TERMINAR DE FAZER
+x. Fim
