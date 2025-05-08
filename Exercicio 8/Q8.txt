@@ -1,5 +1,7 @@
 1. Inicio
-2. Declarar vetor numeros[4]
-3. Ler cada numero 
-4. TERMINAR DE FAZER
-x. Fim
+2. Declarar vetor numeros[4] e i como indice
+3. Para i de 1 até 4:
+    3.1. Ler numeros[i]
+    3.2. Se (numeros[i] >= 10) e (numeros[i] <= 150) entao acumulador <- acumulador + 1
+4. Exibir acumulador
+5. Fim
