@@ -2,7 +2,7 @@ using System;
 
 public class Q2
 {
-    public static void Main()
+    static void Main()
     {
         Console.WriteLine ("Digite a quantidade de KM rodados:");
         decimal km_total = decimal.Parse(Console.ReadLine());

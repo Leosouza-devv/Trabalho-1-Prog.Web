@@ -3,7 +3,7 @@ using System;
 
 public class Q10
 {
-    public static void Main()
+    static void Main()
     {
         Console.WriteLine ("Insira o valor de num1:");
         decimal num1 = decimal.Parse(Console.ReadLine());

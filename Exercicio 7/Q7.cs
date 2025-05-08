@@ -3,7 +3,7 @@ using System;
 
 public class Q7
 {
-    public static void Main()
+    static void Main()
     {
         Console.WriteLine ("Insira o valor do deposito:");
         decimal valor_deposito = decimal.Parse(Console.ReadLine());
