@@ -1,7 +1,9 @@
 1. Inicio
-2. Ler A1 e B1
-3. Declarar A2 e B2
-4. Atribuir A1 a B2
-5. Atribuir B1 a A2
-6. Exibir A, B, A2 e B2
-7. Fim 
+2. Ler A e B
+3. Exibir A e B
+4. Declarar variavel temporário
+5. Atribuir temp = A
+6. Atribuir A = B
+7. Atribuir B = temporário
+8. Exibir A e B (agora com os novos valores)
+9. Fim 
