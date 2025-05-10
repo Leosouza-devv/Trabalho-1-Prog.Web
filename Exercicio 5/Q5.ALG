@@ -1,16 +1,18 @@
 Algoritmo "Q5"
-// DescriÁ„o   : FaÁa um algoritmo que leia dois valores inteiros para as vari·veis A e B e realize a troca de valores, de forma que a vari·vel A passe a conter o valor de B e vice-versa. Exiba os valores das vari·veis A e B antes e depois da troca.
+// Descri√ß√£o   : Fa√ßa um algoritmo que leia dois valores inteiros para as vari√°veis A e B e realize a troca de valores, de forma que a vari√°vel A passe a conter o valor de B e vice-versa. Exiba os valores das vari√°veis A e B antes e depois da troca.
 // Autor(a)    : Analice e Leonardo
 // Data atual  : 03/05/2025
 Var
-A1, B1, A2, B2: inteiro
+A, B, trocador: inteiro
 
 Inicio
-      Escreval("Informe o valor de A (inteiro): ")
-      Leia(A1)
+ Escreval("Informe o valor de A (inteiro): ")
+      Leia(A)
       Escreval("Informe o valor de B (inteiro): ")
-      Leia(B1)
-      B2 <- A1
-      A2 <- B1
-      Escreval("Antes da troca: A=", A1 ," e B=", B1 ,". E depois da troca: A=", A2 ," e B=", B2)
+      Leia(B)
+      Escreval("Valor de A=", A ," e B=", B ," antes da troca.")
+      trocador <- A
+      A <- B
+      B <- trocador
+      Escreval("Valor de A=", A ," e B=", B ," depois da troca.")
 Fimalgoritmo
