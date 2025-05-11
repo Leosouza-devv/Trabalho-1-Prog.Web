@@ -12,7 +12,7 @@ class Q5
         
         Console.WriteLine($"Valor de A={A} e B={B} antes da troca");
         
-        int trocador = int.Parse(Console.ReadLine());
+        int trocador = 0;
         
         trocador = A;
         A = B;

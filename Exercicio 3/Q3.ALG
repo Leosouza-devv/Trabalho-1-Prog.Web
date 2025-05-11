@@ -20,7 +20,7 @@ Inicio
    leia(nome_vendedor)
    escreval("Informe o valor do salario fixo do vendedor:")
    leia(salario_fixo)
-   escreval("Informe o valor total de vendas no mês:")
+   escreval("Informe o valor total de vendas no mï¿½s:")
    leia(valor_total_vendas)
 
    //fazendo calculo
@@ -29,7 +29,7 @@ Inicio
    desconto <- (salario_bruto * p20)
    salario_liquido <- (salario_bruto - desconto)
 
-   //limpa a tela de execução do pedido dos valores para retornar a resposta
+   //limpa a tela de execuï¿½ï¿½o do pedido dos valores para retornar a resposta
    // como uma nota fiscal
    limpatela
    
@@ -40,7 +40,7 @@ Inicio
    escreval("")
    escreval("----------------------------------------------------------")
    escreval("")
-   escreval("Comissão de 5% das vendas: R$", comissao)
+   escreval("Comissï¿½o de 5% das vendas: R$", comissao)
    escreval("Salario Bruto: R$", salario_fixo, " + R$",comissao," = R$",salario_bruto  )
    escreval("")
    escreval("----------------------------------------------------------")
