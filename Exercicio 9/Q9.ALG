@@ -1,31 +1,19 @@
 Algoritmo "Q9"
-//  
-//  
+// Descri??o   : A concessionária de veículos CARANGO VELHO está vendendo veículos com desconto. Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente para vários carros. O desconto deverá ser calculado conforme os seguintes critérios:
+// - Para veículos com ano até 2020, aplique um desconto de 12%.
+// - Para veículos com valor acima de R$ 60.000,00, aplique um desconto de 7%.
+// Observação: os descontos podem ser aplicados cumulativamente. O sistema deverá perguntar se o usuário deseja continuar calculando os descontos até que a resposta seja “N” (Não). Ao final, informe o total geral de carros e o total de carros com ano menor ou igual a 2020.
+// Autor(a)    : Analice e Leonardo
+// Data atual  : 10/05/2025
 
-//A concessionï¿½ria de veï¿½culos CARANGO VELHO estï¿½ vendendo
-//veï¿½culos com desconto. Faï¿½a um algoritmo que calcule e exiba
-//o valor do desconto e o valor a ser pago pelo cliente para
-//vï¿½rios carros. O desconto deverï¿½ ser calculado conforme os
-//seguintes critï¿½rios:
-//? Para veï¿½culos com ano atï¿½ 2020, aplique um desconto de 12%.
-//? Para veï¿½culos com valor acima de R$ 60.000,00, aplique um
-//desconto de 7%.
-//Observaï¿½ï¿½o: os descontos podem ser aplicados cumulativamente.
-//O sistema deverï¿½ perguntar se o usuï¿½rio deseja continuar
-//calculando os descontos atï¿½ que a resposta seja ï¿½Nï¿½ (Nï¿½o). Ao
-//final, informe o total geral de carros e o total de carros
-//com ano menor ou igual a 2020.
 Var
-
    valor_carro,valor_ajustado, d7, d12:real
    qtd_carro, qtd_carro_2020,ano_carro:inteiro
    validador:caracter
    stop:logico
 
 Inicio
-
    stop <- falso
-
 
    enquanto (stop = falso) faca
       //contador da quantidade de carros feitas durante a execuï¿½ï¿½o do algoritmo
@@ -47,15 +35,13 @@ Inicio
       leia(valor_carro)
       valor_ajustado <- valor_carro
 
-
       //caso o valor nï¿½o for adicionado
       se (valor_carro = 0) entao
-         enquanto ano_carro = 0 faca
+         enquanto valor_carro = 0 faca
             escreval("Insira um valor valido para o carro:")
             leia(valor_carro)
          fimenquanto
       fimse
-
 
       //desconto caso o ano de fabricaï¿½ï¿½o for igual ou inferior ao ano de 2020
       se (ano_carro <= 2020) entao
@@ -93,6 +79,4 @@ Inicio
    fimenquanto
    escreval("quantidade de carros cadastrados até 2020 = ", qtd_carro_2020)
    escreval("quantidade de total de carros cadastrados é = ", qtd_carro)
-
-
 Fimalgoritmo

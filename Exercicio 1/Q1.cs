@@ -17,6 +17,6 @@ class Q1
         Console.WriteLine($"Soma: {soma}");
         Console.WriteLine($"Subtração: {subtracao}");
         Console.WriteLine($"Multiplicação: {multiplicacao}");
-        Console.WriteLine($"Divisão: {divisao}");
+        Console.WriteLine($"Divisão: {divisao.ToString("F2")}");
     }
 }

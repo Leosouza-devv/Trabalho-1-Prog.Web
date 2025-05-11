@@ -10,4 +10,5 @@
     3.8. escreval(" Valor do carro: R$" + valor_carro +"|Desconto referente ano de fabricação = "+D12+"% | Desconto referente ao preço do veiculo = " +D7+ "% | Valor com desconto aplicado: R$"+ valor_ajustado)
     3.9. escreval("digite "N" caso deseje sair da operação)
     3.10 ler stop
-4.Fim
+4. Exibir quantidade de carros até 2020 e quantidade de carros totais
+5.Fim

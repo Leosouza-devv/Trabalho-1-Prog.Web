@@ -1,5 +1,5 @@
 Algoritmo "Q1"
-// Descrição   : um algoritmo que receba dois números quaisquer e, ao final, mostre a soma, a subtração, a multiplicação e a divisão entre eles, exibindo uma linha em branco entre cada um dos resultados.
+// Descriï¿½ï¿½o   : Um algoritmo que receba dois nï¿½meros quaisquer e, ao final, mostre a soma, a subtraÃ§Ã£o, a multiplicaï¿½ï¿½o e a divisï¿½o entre eles, exibindo uma linha em branco entre cada um dos resultados.
 // Autor(a)    : Analice e Leonardo
 // Data atual  : 29/04/2025
 
@@ -7,9 +7,9 @@ Var
 num1, num2, soma, subtracao, multiplicacao, divisao: real
 
 Inicio
-      Escreval("Digite o primeiro número: ")
+      Escreval("Digite o primeiro nï¿½mero: ")
       Leia (num1)
-      Escreval("Digite o segundo número: ")
+      Escreval("Digite o segundo nï¿½mero: ")
       Leia (num2)
       soma <- num1 + num2
       subtracao <- num1 - num2
@@ -18,9 +18,9 @@ Inicio
       Escreval(" ")
       Escreval("Soma: ", soma)
       Escreval(" ")
-      Escreval("Subtração: ", subtracao)
+      Escreval("Subtraï¿½ï¿½o: ", subtracao)
       Escreval(" ")
-      Escreval("Multiplicação: ", multiplicacao)
+      Escreval("Multipliï¿½ï¿½o: ", multiplicacao)
       Escreval(" ")
-      Escreval("Divisão: ", divisao)
+      Escreval("Divisï¿½o: ", divisao)
 Fimalgoritmo

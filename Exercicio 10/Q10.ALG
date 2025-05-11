@@ -1,13 +1,9 @@
 Algoritmo "Q10"
-
-//Faï¿½a um algoritmo que leia dois nï¿½meros e identifique se
-//sï¿½o iguais ou diferentes. Caso sejam iguais, imprima uma
-//mensagem informando que sï¿½o iguais. Caso sejam diferentes,
-//informe qual nï¿½mero ï¿½ o maior e exiba uma mensagem informando
-//que sï¿½o diferentes.
+// Descri??o   : Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso sejam iguais, imprima uma mensagem informando que são iguais. Caso sejam diferentes, informe qual número é o maior e exiba uma mensagem informando que são diferentes.
+// Autor(a)    : Analice e Leonardo
+// Data atual  : 10/05/2025
 
 Var
-
    num1,num2:real
 
 Inicio
@@ -17,14 +13,13 @@ Inicio
    leia(num2)
    
    se(num1 = num2) entao
-      escreval("os numeros de num1 e num2 sï¿½o Iguais, eles sï¿½o = ", num1)
+      escreval("os numeros de num1 e num2 são Iguais, eles são = ", num1)
    senao
       se (num1 > num2) entao
-         escreval("O valor de num1 ï¿½ maior que num2, ", num1, " > ", num2)
+         escreval("O valor de num1 é maior que num2, ", num1, " > ", num2)
       fimse
       se (num1 < num2) entao
-         escreval("O valor de num1 ï¿½ menor que num2, ", num1, " < ", num2)
+         escreval("O valor de num1 é menor que num2, ", num1, " < ", num2)
       fimse
    fimse
-
 Fimalgoritmo

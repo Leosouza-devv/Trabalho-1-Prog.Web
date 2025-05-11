@@ -16,6 +16,5 @@ class Q8
         }
         
         Console.WriteLine($"Dentre os valores inseridos, o total de números entre 10 e 150 é = {acumulador}");
-        
     }
 }

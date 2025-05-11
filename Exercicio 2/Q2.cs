@@ -1,6 +1,6 @@
 using System;
 
-public class Q2
+class Q2
 {
     static void Main()
     {
@@ -9,8 +9,6 @@ public class Q2
         Console.WriteLine ("Digite a quantidade de combustivel gasto em litros:");
         decimal combustivel_gasto = decimal.Parse(Console.ReadLine());
         decimal media = (combustivel_gasto/km_total);
-        Console.WriteLine($"A média de combustivel gasto por km rodado = {media} Litros por KM");
-        
-                
+        Console.WriteLine($"A média de combustivel gasto por km rodado = {media} Litros por KM");        
     }
 }

@@ -1,7 +1,6 @@
-
 using System;
 
-public class Q7
+class Q7
 {
     static void Main()
     {
@@ -12,7 +11,6 @@ public class Q7
         
         Console.WriteLine($"O valor depositado = R${valor_deposito.ToString("F2")}");
         Console.WriteLine($"O valor do rendimento R${valor_rendimento.ToString("F2")}");
-        Console.WriteLine($"O valor ajustado = R${valor_ajustado.ToString("F2")}");
-                
+        Console.WriteLine($"O valor ajustado = R${valor_ajustado.ToString("F2")}");       
     }
 }

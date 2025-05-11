@@ -1,5 +1,5 @@
 Algoritmo "Q5"
-// Descrição   : Faça um algoritmo que leia dois valores inteiros para as variáveis A e B e realize a troca de valores, de forma que a variável A passe a conter o valor de B e vice-versa. Exiba os valores das variáveis A e B antes e depois da troca.
+// Descri��o   : Fa�aa um algoritmo que leia dois valores inteiros para as vari�veis A e B e realize a troca de valores, de forma que a vari�vel A passe a conter o valor de B e vice-versa. Exiba os valores das variáveis A e B antes e depois da troca.
 // Autor(a)    : Analice e Leonardo
 // Data atual  : 03/05/2025
 Var

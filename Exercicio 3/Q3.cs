@@ -1,6 +1,6 @@
 using System;
 
-class Q6
+class Q3
 {
     static void Main()
     {
